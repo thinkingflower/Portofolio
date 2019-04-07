@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css?family=Oswald:300');
+html{
+    font-family: 'Oswald', sans-serif;
+}
+header,main,footer{
+    display:block;
+    width:1000px; 
+    margin:0px auto; padding:30px;
+ }
+h1{
+    text-align: center;
+    text-shadow: 2px 2px 0px #c0a34b;
+}
+h2{
+    text-align: center;
+    border: 2px #c510b6fd;
+    border-style:solid;
+    min-width: 100px;
+    max-width: 200px;
+    padding:5px;
+}
+header {
+    min-height:180px;
+    font-size: 20px;
+    background-image:url(image/backimage.gif),url(image/backimage2.png);
+}
+main {
+   
+    min-height:400px;
+    font-weight: bolder;
+    border-radius: 50px;
+    box-shadow:10px 10px 25px #d3926c;
+    padding-bottom: 1px;
+}
+main ul{
+    position: fixed; top: 20px; left:20px;
+    background-color: rgba(255, 166, 0, 0.4);
+    min-width: 150px;
+}
+footer, .main11 {
+    min-height:50px;
+    padding: 10px;
+    text-align: center;
+    border-radius: 10px;
+}
+footer small{
+    color: #ffffff;
+    line-height: 10px;
+    font-size: 10px;
+}
+body{
+    margin:0px;
+    color:#ebddcd;
+    font-size:20px;
+    line-height:30px;
+    background: linear-gradient(-45deg, rgba(246, 255, 0, .8), rgba(255, 0, 161, .8));
+    border-radius: 10px;
+}
+p {
+    padding:10px; margin:0px;
+}
+img:hover{
+    opacity: 0.5 ;
+}
+ul a{
+    text-decoration: none;
+}
+ul a:hover{
+    opacity: 0.5;
+}
