@@ -13,8 +13,7 @@ h1{
 }
 h2{
     text-align: center;
-    border: 2px #c510b6fd;
-    border-style:solid;
+    border: 2px solid rgba(197, 16, 182, 0.992);
     min-width: 100px;
     max-width: 200px;
     padding:5px;
