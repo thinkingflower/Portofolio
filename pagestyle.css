@@ -85,6 +85,13 @@ img:hover{
 .sectionspace{
     margin-bottom: 80px;
 }
+.object{
+    font-size: 40px;
+}
+.object2{
+    font-size: 30px;
+    margin-bottom: 30px;
+}
 ul a{
     text-decoration: none;
 }
