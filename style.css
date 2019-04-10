@@ -27,7 +27,6 @@ main {
     min-height:400px;
     font-weight: bolder;
     border-radius: 50px;
-    box-shadow:10px 10px 25px #d3926c;
     padding-bottom: 1px;
 }
 main ul{
@@ -60,8 +59,10 @@ body{
 p {
     padding:10px; margin:0px;
 }
-img:hover{
-    opacity: 0.5 ;
+img{
+    display: block;
+    margin:0 auto;
+    height:213px;
 }
 ul a{
     text-decoration: none;
